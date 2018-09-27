@@ -47,6 +47,17 @@ source ~/.bashrc
 
 填入 IP 以及金鑰的路徑之後按下連線
 
+接著將金鑰檔拖到視窗內即完成上傳
+
+連線成功之後可在右下角的視窗看到 ubuntu 上的家目錄
+
+![installSpark_03](images/installSpark_03.png)
+
+接著將你的金鑰拖移到右下角的視窗中就會開始上傳
+
+上傳之後，你就可以在 ubuntu 上的家目錄中看見你的檔案
+
+![installSpark_04](images/installSpark_04.png)
 
 
 ### 安裝 Git
@@ -68,12 +79,14 @@ cd ~/spark-ec2
 ```
 git branch -a
 ```
-![installSpark_03](images/installSpark_03.png)
+![installSpark_05](images/installSpark_05.png)
 
 ### 切換 Branch 到 branch-2.0
 ```
 git checkout remotes/origin/branch-2.0
 ```
+
+![installSpark_06](images/installSpark_06.png)
 
 ### 建立一個 cluster
 在輸入下面的指令前請先替換以下部分
