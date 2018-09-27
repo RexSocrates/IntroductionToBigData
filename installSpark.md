@@ -99,12 +99,12 @@ git checkout remotes/origin/branch-2.0
 ```
 
 說明：
--k 金鑰名稱
--i 金鑰位置
--r region (ap-northeast-1 代表東京)
--z zone (ap-northeast-1a 代表東京地區的其中一個  data center)
--t 啟動的機器規格
--s slave 數量
+-k 金鑰名稱  
+-i 金鑰位置  
+-r region (ap-northeast-1 代表東京)  
+-z zone (ap-northeast-1a 代表東京地區的其中一個  data center)  
+-t 啟動的機器規格  
+-s slave 數量  
 
 因為建立一個 cluster 大概需要15 ~ 20 分鐘，大家可以先去休息啦！！
 
