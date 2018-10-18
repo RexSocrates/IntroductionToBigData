@@ -19,10 +19,13 @@ nano ~/.bashrc
 按下 a 進入編輯模式，注意左下角有出現 --INSERT--
 ![installSpark_01](images/installSpark_01.png)
 
-Step 2 : 將下面的文字加到 .bashrc 的最下面（將下面的 * 分別換成你自己的 ACCESS KEY ID 以及 ACCESS KEY）
+Step 2 : 將下面的文字加到 .bashrc 的最下面（將下面的 * 分別換成你自己的 ACCESS KEY ID, ACCESS KEY 以及 SESSION TOKEN） 
+備註：AWS_SECURITY_TOKEN 與 AWS_SESSION_TOKEN 後面的文字是一樣的
 ```
 export AWS_ACCESS_KEY_ID=*
 export AWS_SECRET_ACCESS_KEY=*
+export AWS_SECURITY_TOKEN=*
+export AWS_SESSION_TOKEN=*
 ```
 
 Step 3 : 離開編輯模式
@@ -107,6 +110,14 @@ git checkout remotes/origin/branch-2.0
 -s slave 數量  
 
 因為建立一個 cluster 大概需要15 ~ 20 分鐘，大家可以先去休息啦！！
+
+Cluster 建立完畢之後我們可以在畫面中看到兩個網址，各位可以點進去看看
+![installSpark_06](images/installSpark_07.png)
+
+在瀏覽器輸入網址之後會看到以下的畫面
+![installSpark_06](images/installSpark_09.png)
+![installSpark_06](images/installSpark_10.png)
+
 
 ### 登入 cluster
 注意：這邊的工作路徑仍是在 ~/spark-ec2
